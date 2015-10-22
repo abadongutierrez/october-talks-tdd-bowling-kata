@@ -1,0 +1,19 @@
+{
+  "name": "bowling-kata-nodejs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "mocha --require should --ui bdd app/tests/unit/**/*.test.js"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
